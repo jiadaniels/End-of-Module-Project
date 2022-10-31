@@ -1,0 +1,32 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li{
+    display: inline;
+}
+.nav a{
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0px 25px;
+    text-decoration: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+    color: black;
+    padding: 55px 150px 0px 0px;
+}
+
+.nav a:hover{
+    color: #D291BC;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
