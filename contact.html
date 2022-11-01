@@ -61,19 +61,18 @@
             data-bs-toggle="dropdown"
             aria-expanded="false"
           >
-            Work & Education
+            Work, Education & Skills
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li>
               <a class="dropdown-item" href="./work.html">Work Experience</a>
             </li>
             <li>
-              <a class="dropdown-item" href="./education.html">Education</a>
+              <a class="dropdown-item" href="./education&sskills.html"
+                >Education and Skills</a
+              >
             </li>
           </ul>
-        </li>
-        <li>
-          <a href="./skills.html"> Skills </a>
         </li>
         <li>
           <a href="./projects.html"> Projects </a>
@@ -88,5 +87,142 @@
     </header>
 
     <!-- END NAVBAR -->
+
+    <!-- content -->
+    <h1><b>Contact Me</b></h1>
+    <div class="contact-info">
+      <li>
+        <a href="tel: 0832638024">
+          <i class="fa-solid fa-phone fa-2x" style="color: rgb(71, 2, 71)"></i>
+          <div>
+            <b>Call</b>
+          </div>
+          <div>
+            <b>(083) 263 8024</b>
+          </div>
+        </a>
+      </li>
+
+      <ul class="social" align="center">
+        <li class="">
+          <a href="https://wa.me/832638024">
+            <i class="fa-brands fa-whatsapp fa-3x"></i>
+          </a>
+        </li>
+        <li class="">
+          <a href="https://instagram.com/jia.daniels?igshid=YmMyMTA2M2Y=">
+            <i class="fa-brands fa-instagram fa-3x"></i>
+          </a>
+        </li>
+        <li class="">
+          <a href="https://github.com/jiadaniels">
+            <i class="fa-brands fa-github fa-3x"></i>
+          </a>
+        </li>
+      </ul>
+
+      <li>
+        <a href="#">
+          <i
+            class="fa-regular fa-envelope fa-2x"
+            style="color: rgb(71, 2, 71)"
+          ></i>
+
+          <div>
+            <b>Email</b>
+          </div>
+          <div>
+            <b>jiadaniels77@gmail.com</b>
+          </div>
+        </a>
+      </li>
+    </div>
+
+    <!-- form -->
+    <div align="center">
+      <form action="https://formspree.io/f/xwkzwekr" method="POST">
+        <div>
+          <label for="name"></label>
+          <input
+            type="text"
+            class="input-field"
+            id="name"
+            placeholder="Name"
+            required
+            style="background: transparent; color: rgb(0, 0, 0)"
+          />
+        </div>
+        <div>
+          <label for="email"></label>
+          <input
+            type="text"
+            class="input-field"
+            id="email"
+            placeholder="Email"
+            required
+            style="background: transparent; color: rgb(0, 0, 0)"
+          />
+        </div>
+        <div>
+          <label for="message"></label>
+          <textarea
+            name="message"
+            id="message"
+            cols="60"
+            rows="10"
+            placeholder="Enter Your Message"
+            required
+            style="background: transparent; color: rgb(0, 0, 0)"
+          ></textarea>
+        </div>
+
+        <input
+          type="Submit"
+          value="Submit"
+          id="submit-btn"
+          class="submit-btn"
+        />
+      </form>
+    </div>
+
+    <!-- end form -->
+    <!-- end content -->
+
+    <!-- footer -->
+    <section>
+      <div class="container">
+        <footer
+          class="d-flex flex-wrap justify-content-between align-items-center my-2 border-top"
+        >
+          <div class="col d-flex align-items-center">
+            <a href="/" class="text-decoration-none">
+              <svg width="0" height="24">
+                <use xlink:href="#bootstrap"></use>
+              </svg>
+            </a>
+            <span class="#">© 2022 Jia Daniels Portfolio</span>
+          </div>
+
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li>
+              <a href="#">
+                <i class="fa-brands fa-twitter fa-2x"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-brands fa-instagram fa-2x"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-brands fa-facebook fa-2x"></i>
+              </a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </section>
+    <!-- end footer -->
   </body>
 </html>
