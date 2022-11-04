@@ -76,18 +76,40 @@ h1{
 
 .flip-card-front{
     background-color: transparent;
-    color: black;
+    color: rgb(238, 238, 238);
 }
 
 .flip-card-back{
     background-color: transparent;
-    color: rgb(255, 255, 255);
+
     transform: rotateY(180deg);
+}
+
+.flip-card-back .parg{
+
+    color: rgb(21, 155, 133);
+
+}
+
+.flip-card-back .par{
+    color: black;
 }
 
 .cards{
     display: flex;
     padding-top: 40px;
+}
+
+ul li{
+    justify-content: center;
+}
+
+ul li a{
+    color: gray;
+}
+
+ul li a:hover{
+    color: blueviolet;
 }
 
 

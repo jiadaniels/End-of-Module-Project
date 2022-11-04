@@ -43,6 +43,10 @@ h1{
     color: rgb(65, 65, 65);
 }
 
+h1{
+    text-align: center;
+}
+
 footer {
     left: 0;
     bottom: 0;
@@ -50,3 +54,57 @@ footer {
     color: gray;
     text-align: center;
   }
+
+  .grid-container .item3 a{
+    text-decoration: underline;
+    color: black;
+}
+
+
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+.item6 { grid-area: info1; }
+.item7 { grid-area: info2; }
+.item8 { grid-area: info3; }
+.item9 { grid-area: info4; }
+.item10 { grid-area: info5; }
+.item11 { grid-area: info6; }
+.item12 { grid-area: info7; }
+.item13 { grid-area: info8; }
+.item14 { grid-area: info9; }
+.item15 { grid-area: info10; }
+.item16 { grid-area: info11; }
+.item17 { grid-area: info12; }
+.item18 { grid-area: info13; }
+.item19 { grid-area: info14; }
+.item20 { grid-area: info15; }
+.item21 { grid-area: info16; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer'
+    'info1 info2 info2 info2 info3 info3'
+    'info1 info4 info4 info4 info4 info4'
+    'info5 info6 info6 info6 info7 info7'
+    'info5 info8 info8 info8 info8 info8'
+    'info9 info10 info10 info10 info11 info11'
+    'info9 info12 info12 info12 info12 info12'
+    'info13 info14 info14 info14 info15 info15'
+    'info13 info16 info16 info16 info16 info16';
+  gap: 10px;
+  background-color: transparent;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.37);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}

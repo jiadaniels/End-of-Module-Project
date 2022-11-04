@@ -43,6 +43,10 @@ h1{
     color: rgb(65, 65, 65);
 }
 
+h1{
+    text-align: center;
+}
+
 .flip-card{
     background-color: transparent;
     width: 300px;
@@ -74,12 +78,12 @@ h1{
 
 .flip-card-front{
     background-color: transparent;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .flip-card-back{
     background-color: transparent;
-    color: rgb(255, 255, 255);
+    color: rgb(52, 52, 52);
     transform: rotateY(180deg);
 }
 
@@ -122,3 +126,11 @@ h1{
     color: gray;
     text-align: center;
   }
+
+/* .container{
+    justify-content: center!important;
+}  */
+/* .work-exp{
+    margin: auto !important;
+    max-width: 100% !important;
+} */
