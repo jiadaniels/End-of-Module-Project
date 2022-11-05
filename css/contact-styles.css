@@ -161,3 +161,11 @@ footer {
     color: gray;
     text-align: center;
   }
+
+  @media screen and (width <= 320px) {
+    *{
+        flex-flow: column wrap !important;
+        margin: 0;
+        padding: 0;
+    }
+  }

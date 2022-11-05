@@ -86,7 +86,7 @@ footer {
 
 
 .image{
-    animation: fade-in 5000ms forwards;
+    animation: fade-in 1.4s forwards;
     animation: slide-in 1.4s ease;
   }
 

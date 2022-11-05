@@ -83,7 +83,7 @@ h1{
 
 .flip-card-back{
     background-color: transparent;
-    color: rgb(52, 52, 52);
+    color: black;
     transform: rotateY(180deg);
 }
 
@@ -99,6 +99,7 @@ h1{
     grid-template-columns:auto auto;
     background-color: transparent;
     width: 50%;
+    padding-left: 30%;
   }
   
 .grid-item {
@@ -116,7 +117,6 @@ h1{
     border: 1px rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 15px;
-    text-align: center;
   }
 
   footer {
@@ -127,10 +127,3 @@ h1{
     text-align: center;
   }
 
-/* .container{
-    justify-content: center!important;
-}  */
-/* .work-exp{
-    margin: auto !important;
-    max-width: 100% !important;
-} */

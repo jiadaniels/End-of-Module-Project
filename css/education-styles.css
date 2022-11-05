@@ -108,3 +108,41 @@ footer {
   padding: 20px 0;
   font-size: 30px;
 }
+
+.progress{
+    background-color: transparent;
+}
+
+.grid-container p a:hover{
+    color: whitesmoke;
+  }
+
+  .progress-bar-html{
+    background-color: violet;
+  }
+
+  .progress-bar-css{
+    background-color: rgb(173, 100, 111);
+  }
+
+  .progress-bar-boot{
+    background-color: rgb(128, 181, 199);
+  }
+
+  .progress-bar-adobep{
+    background-color: rgb(115, 201, 115);
+  }
+
+  .progress-bar-adobei{
+    background-color: rgb(195, 195, 119);
+  }
+
+
+@media screen and (width <= 900px) {
+    img {
+        width: 100%;
+    }
+    .grid-container {
+        flex-flow: column wrap;
+    }
+}
